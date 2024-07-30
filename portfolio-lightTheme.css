@@ -21,6 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 60px;
 }
 
 #icon-container {
@@ -47,9 +48,6 @@ body {
 #profile {
   height: 215px;
   width: 631px;
-  display: flex;
-  gap: 20px;
-  margin-top: 60px;
 }
 
 #profile-pic {
@@ -64,7 +62,7 @@ body {
 }
 
 #img {
-  max-width: 90%;
+  max-width: 100%;
   height: 90%;
   border-radius: 50%;
 }
@@ -73,7 +71,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
 }
 
 #profile-right-name {
@@ -98,8 +95,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 90px;
-  margin-top: 40px;
 }
 
 #text-box1 {
@@ -159,7 +154,7 @@ p {
   width: 760px;
   background-color: var(--secondary-base-color);
   border-radius: 20px;
-  margin-top: 60px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -172,7 +167,6 @@ p {
   width: 351.45px;
   border: none;
   border-radius: 20px;
-  margin-left: 20px;
   font-size: 22px;
   color: var(--text-color);
   background-color: var(--base-color);
@@ -192,8 +186,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 60px;
-  margin-bottom: 60px;
 }
 
 #section5-row {
@@ -252,9 +244,6 @@ p {
   #icon-container {
     height: 48px;
     width: 48px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
   .icon-svg {
     height: 24px;
@@ -272,6 +261,11 @@ p {
     align-items: center;
     gap: 10px;
   }
+  #profile-pic {
+    height: 124px;
+    width: 124px;
+  }
+
   #section2 {
     height: 106px;
     width: 375px;
@@ -280,5 +274,16 @@ p {
     align-items: center;
     gap: 90px;
     margin-top: 40px;
+  }
+
+  #section5 {
+    height: 1040px;
+    width: 375x;
+    display: flex;
+    flex-direction: column;
+  }
+  #section5-row {
+    display: flex;
+    flex-direction: column;
   }
 }
