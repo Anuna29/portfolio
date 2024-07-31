@@ -93,9 +93,8 @@ body {
   height: 142px;
   width: 634px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 90px;
 }
 
 #text-box1 {
@@ -248,6 +247,13 @@ p {
 }
 
 @media only screen and (max-width: 620px) {
+  body {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   #icon-container {
     height: 48px;
     width: 48px;
@@ -257,6 +263,7 @@ p {
     width: 24px;
   }
   #profile {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -266,22 +273,37 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
   }
+  #profile-right-name {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  #profile-right-occ {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+  }
+
   #profile-pic {
     height: 124px;
     width: 124px;
   }
 
   #section2 {
-    height: 106px;
-    width: 375px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 90px;
-    margin-top: 60px;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 40px;
+    text-align: center;
   }
+
+  #section2 p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
   #section3 {
     height: 44px;
     width: 375px;
