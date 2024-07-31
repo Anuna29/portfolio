@@ -248,7 +248,7 @@ p {
 
 @media only screen and (max-width: 620px) {
   body {
-    width: 375px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
