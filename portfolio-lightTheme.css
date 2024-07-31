@@ -222,6 +222,7 @@ p {
   color: var(--text-color);
   font-size: 22px;
   text-align: center;
+  gap: 10px;
 }
 
 .test:hover {
@@ -231,7 +232,7 @@ p {
   font-size: 14px;
 }
 
-#test-button {
+.test-button {
   height: 38px;
   width: 38px;
   border: none;
@@ -332,5 +333,8 @@ p {
   .section5-box {
     height: 210px;
     width: 340px;
+  }
+  #footer {
+    font-size: 14px;
   }
 }
